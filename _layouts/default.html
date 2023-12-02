@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  </head>
+<html lang="en">
+  {% include head.html %}
   <body>
-    {{ content }}
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col col-sm-10 col-md-8 col-lg-6">
+          {{ content }}
+        </div>
+      </div>
+    </div>
   </body>
 </html>
