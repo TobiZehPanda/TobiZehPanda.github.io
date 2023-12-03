@@ -6,6 +6,8 @@ author:
   name: Tobi Sakatoi
   email: tobizehpanda@gmail.com
 
+photo: /assets/jpg/pfp.jpg
+
 sass:
   sass_dir: _sass
   style: compressed
