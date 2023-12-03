@@ -16,5 +16,3 @@ sass:
 plugins:
   - jekyll-feed
 
-feed:
-  path: feed.atom

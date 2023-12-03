@@ -36,6 +36,7 @@ title: "Honor!"
     </div>
   </div>
 </div>
+  {% include postlist.html %}
 <div class="d-flex align-items-center justify-content-center">
   {% include footer.html %}
 </div>
