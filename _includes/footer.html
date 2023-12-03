@@ -1,4 +1,18 @@
 <footer>
-  <small>&copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>
-    {{ site.author.name }}. All rights reserved.</small>
+  <div class="menu d-flex align-items-center justify-content-center">
+    <ul>
+      <li>
+        <a href="contact.html">Contact</a>
+      </li>
+      <li>
+        <a href="posts.html">Posts</a>
+      </li>
+      <li>
+        <a href="links.html">Links</a>
+      </li>
+    </ul> 
+  </div>
+  <div class="d-flex align-items-center justify-content-center">
+    <small>&copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>{{ site.author.name }}. All rights reserved.</small>
+  </div>
 </footer>

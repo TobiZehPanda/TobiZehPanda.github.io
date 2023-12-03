@@ -7,24 +7,9 @@ pagination:
 <link rel="stylesheet" href="/assets/css/typing.css">
 <script src="/assets/js/typing.js"></script>
 <div class="h-100 d-flex align-items-center justify-content-center">
-  <ul id="menu">
-    <a class="menu-button"><img id="pfp" src="assets/jpg/pfp.jpg"></a>
-    <li class="menu-item">
-      <a href="#menu">
-        <span>test</span>
-      </a>
-    </li>
-    <li class="menu-item">
-      <a href="#menu">
-        <span>test</span>
-      </a>
-    </li>
-    <li class="menu-item">
-      <a href="#menu">
-        <span>test</span>
-      </a>
-    </li>
-  </ul>
+  <a class="pfp-link" href="contact.html">
+    <img id="pfp" src="assets/jpg/pfp.jpg">
+  </a>
   <span class="line"></span>
   <div>
     <a href="contact.html"><h1 id="name-title">Tobi Sakatoi</h1></a>
@@ -55,6 +40,4 @@ pagination:
     </div>
   </div>
 </div>
-<div class="d-flex align-items-center justify-content-center">
   {% include footer.html %}
-</div>
