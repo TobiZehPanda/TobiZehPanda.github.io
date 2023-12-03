@@ -12,4 +12,8 @@
     40% {opacity: 1;}
     60% {opacity: 0;}
     100% {opacity: 0;}
-  }
+}
+
+.typing-container {
+  font-size: 3em;
+}
