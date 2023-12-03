@@ -1,7 +1,7 @@
 .input-cursor {
   display: inline-block;
   width: 2px;
-  height: 40px;
+  height: 35px;
   background-color: white;
   margin-left: 8px;
   animation: blink .6s linear infinite alternate;
@@ -15,5 +15,6 @@
 }
 
 .typing-container {
-  font-size: 3em;
+  font-size: 2em;
 }
+
