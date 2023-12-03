@@ -1,0 +1,15 @@
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 40px;
+  background-color: white;
+  margin-left: 8px;
+  animation: blink .6s linear infinite alternate;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }

@@ -1,6 +1,10 @@
 url: "https://tobizehpanda.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Tobi" # the name of your site, e.g. ACME Corp.
+title: "Tobi Sakatoi" # the name of your site, e.g. ACME Corp.
+
+author:
+  name: Tobi Sakatoi
+  email: tobizehpanda@gmail.com
 
 sass:
   sass_dir: _sass
