@@ -1,11 +1,30 @@
 ---
 layout: home
-title: "Honor!"
+title: "Sakatoi"
+pagination:
+  enabled: true
 ---
 <link rel="stylesheet" href="/assets/css/typing.css">
 <script src="/assets/js/typing.js"></script>
 <div class="h-100 d-flex align-items-center justify-content-center">
-  <img id="pfp" src="assets/jpg/pfp.jpg">
+  <ul id="menu">
+    <a class="menu-button"><img id="pfp" src="assets/jpg/pfp.jpg"></a>
+    <li class="menu-item">
+      <a href="#menu">
+        <span>test</span>
+      </a>
+    </li>
+    <li class="menu-item">
+      <a href="#menu">
+        <span>test</span>
+      </a>
+    </li>
+    <li class="menu-item">
+      <a href="#menu">
+        <span>test</span>
+      </a>
+    </li>
+  </ul>
   <span class="line"></span>
   <div>
     <a href="contact.html"><h1 id="name-title">Tobi Sakatoi</h1></a>
@@ -17,7 +36,7 @@ title: "Honor!"
   </div>
 </div>
 
-<div class="container">
+<div class="">
   <div class="row justify-content-center">
     <div class="col col-sm-10 col-md-8 col-lg-6">
       <h1>About</h1>
@@ -36,7 +55,6 @@ title: "Honor!"
     </div>
   </div>
 </div>
-  {% include postlist.html %}
 <div class="d-flex align-items-center justify-content-center">
   {% include footer.html %}
 </div>
