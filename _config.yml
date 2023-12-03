@@ -13,3 +13,8 @@ sass:
   style: compressed
   sourcemap: never
 
+plugins:
+  - jekyll-feed
+
+feed:
+  path: feed.atom

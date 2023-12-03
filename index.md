@@ -36,3 +36,6 @@ title: "Honor!"
     </div>
   </div>
 </div>
+<div class="d-flex align-items-center justify-content-center">
+  {% include footer.html %}
+</div>
