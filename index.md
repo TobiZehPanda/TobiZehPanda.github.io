@@ -33,11 +33,11 @@ pagination:
         Grew up in the village of <span class="yellow">White Lake</span>, WI. I am a <span class="indigo">Linux</span> enthusiast and also a proud mother of three kids and a chonky cat. I mostly use <a href="https://archlinux.org">Arch Linux</a> on a daily basis, as it is my preferred flavour of Linux.
       </p>
       <h2>Donations</h2>
-<div>
-    <a href="https://paypal.me/tsakatoi"><img src="/assets/jpg/paypal.jpg" alt="PayPal QR Code" width="300" height="300" style="text-align: center; margin: auto;"></a>
-</div>
-<span class="orange">Bitcoin</span>: <b>3J1i5fauKy53iEk33ATVbaAbp5wZcJLQ6F</b>
+      <div>
+        <a href="https://paypal.me/tsakatoi"><img src="/assets/jpg/paypal.jpg" alt="PayPal QR Code" width="300" height="300" style="text-align: center; margin: auto;"></a>
+      </div>
+      <span class="orange">Bitcoin</span>: <b>3J1i5fauKy53iEk33ATVbaAbp5wZcJLQ6F</b>
+      {% include footer.html %}
     </div>
   </div>
 </div>
-  {% include footer.html %}

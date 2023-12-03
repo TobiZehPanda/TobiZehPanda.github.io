@@ -1,4 +1,4 @@
-.menu ul {
+#menu ul {
   display: inline-flex;
   list-style-type: none;
   overflow: hidden;
@@ -6,21 +6,22 @@
   align-items: center;
   justify-content: center;
 }
-.menu li {
+
+#menu li {
   text-decoration: none;
   background-color: #343a40;
   margin: 10px;
   width: 100%;
 }
 
-.menu a {
+#menu a {
   display: block;
   text-align: center;
   padding: 14px 14px;
   transition: background-color 0.5s ease;
 }
 
-.menu a:hover {
+#menu a:hover {
   background-color: #495057;
   border-bottom: 2px solid #20c997;
 }

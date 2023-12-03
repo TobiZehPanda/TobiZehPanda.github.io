@@ -1,6 +1,6 @@
 ---
-layout: cv
-title: CV
+layout: page
+title: Contact
 ---
 
 {% include contact.html %}
