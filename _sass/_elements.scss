@@ -100,3 +100,11 @@ a.reversefootnote {
     border: none;
   }
 }
+
+.hover {
+  transition: font-size 0.5s ease;
+}
+
+.hover:hover {
+  font-size: 1.2em;
+}

@@ -30,7 +30,7 @@ pagination:
         "Chains are meant to be <span class="red">broken</span>, as are those who forge them." - DND
       </blockquote>
       <p>
-        Grew up in the village of <span class="yellow">White Lake</span>, WI. I am a <span class="indigo">Linux</span> enthusiast and also a proud mother of three kids and a chonky cat. I mostly use <a href="https://archlinux.org">Arch Linux</a> on a daily basis, as it is my preferred flavour of Linux.
+        Grew up in the village of <a href="https://maps.google.com?q=white%20lake%20wi"><span class="yellow hover">White Lake</span></a>, WI. I am a <span class="indigo">Linux</span> enthusiast and also a proud mother of three kids and a chonky cat. I mostly use <a href="https://archlinux.org" class="hover">Arch Linux</a> on a daily basis, as it is my preferred flavour of Linux.
       </p>
       <h2>Donations</h2>
       <div>
