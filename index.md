@@ -36,7 +36,9 @@ pagination:
       <div>
         <a href="https://paypal.me/tsakatoi"><img src="/assets/jpg/paypal.jpg" alt="PayPal QR Code" width="300" height="300" style="text-align: center; margin: auto;"></a>
       </div>
-      <span class="orange">Bitcoin</span>: <b>3J1i5fauKy53iEk33ATVbaAbp5wZcJLQ6F</b>
+      <p>
+        <span class="orange">Bitcoin</span>: <b>3J1i5fauKy53iEk33ATVbaAbp5wZcJLQ6F</b>
+      </p>
       {% include footer.html %}
     </div>
   </div>
