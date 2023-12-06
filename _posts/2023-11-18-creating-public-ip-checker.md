@@ -54,7 +54,7 @@ pacman -S cronie
 
 old_ip=`cat /tmp/ip`
 current_ip=`curl --ipv4 ifconfig.me`
-if [ $old_ip != $current_ip ]; then
+if [ "$old_ip" != "$current_ip" ]; then
 	echo "" | mail -s "New Public IP -> $current_ip" email@gmail.com
 fi
 echo $current_ip > /tmp/ip
