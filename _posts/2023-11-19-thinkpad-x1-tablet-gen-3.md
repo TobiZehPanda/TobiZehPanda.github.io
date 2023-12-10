@@ -67,6 +67,10 @@ On November 15th, 2023, I bought a <span class="green">Thinkpad X1 Tablet Gen 3<
             <td>{% include svg/check-circle.svg %}</td>
         </tr>
         <tr>
+            <td>Mirco SD Slot</td>
+            <td>{% include svg/check-circle.svg %}</td>
+        </tr>
+        <tr>
             <td>Lenovo Pen Pro</td>
             <td>{% include svg/check-circle.svg %}</td>
         </tr>
