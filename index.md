@@ -4,19 +4,22 @@ title: "Sakatoi"
 pagination:
   enabled: true
 ---
+
 <link rel="stylesheet" href="/assets/css/typing.css">
 <script src="/assets/js/typing.js"></script>
-<div class="h-100 d-flex align-items-center justify-content-center">
-  <a class="pfp-link" href="contact.html">
-    <img id="pfp" src="assets/jpg/pfp.jpg">
-  </a>
-  <span class="line"></span>
-  <div>
-    <a href="contact.html"><h1 id="name-title">Tobi Sakatoi</h1></a>
-    <div class="typing-container">
-      <span id="sentence" class="sentence"></span>
-      <span id="feature-text"></span>
-      <span class="input-cursor"></span>
+<div id="background-logo" class="h-100 d-flex align-items-center justify-content-center">
+    <div id="logo-box" class="d-flex align-items-center justify-content-center">
+    <a class="pfp-link" href="contact.html">
+      <img id="pfp" src="assets/jpg/pfp.jpg">
+    </a>
+    <span class="line"></span>
+    <div>
+      <a href="contact.html"><h1 id="name-title">Tobi Sakatoi</h1></a>
+      <div class="typing-container">
+        <span id="sentence" class="sentence"></span>
+        <span id="feature-text"></span>
+        <span class="input-cursor"></span>
+      </div>
     </div>
   </div>
 </div>
