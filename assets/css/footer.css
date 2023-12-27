@@ -1,28 +1,6 @@
-#menu ul {
-  display: inline-flex;
-  list-style-type: none;
-  overflow: hidden;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+input[type=search] {
+  background-image: url('/assets/png/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
 }
-
-#menu li {
-  text-decoration: none;
-  background-color: #343a40;
-  margin: 10px;
-  width: 100%;
-}
-
-#menu a {
-  display: block;
-  text-align: center;
-  padding: 14px 14px;
-  transition: background-color 0.5s ease;
-}
-
-#menu a:hover {
-  background-color: #495057;
-  border-bottom: 2px solid #20c997;
-}
-
