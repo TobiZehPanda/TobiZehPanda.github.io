@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Creating Arch Linux Packages
-lead: Arch Linux Packages
+category: linux
+tags: Arch Linux Packages
 ---
 
 On this very day, I spent **four** hours attempting to create a simple font package for Arch linux. Every package requires a PKGBUILD file! 

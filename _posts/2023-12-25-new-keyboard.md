@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Building a new keyboard
-lead: keyboard
+category: keyboard
+tags: keyboard
 ---
 
 So on <span class="green hover">Christmas Eve</span> I decided to spoil myself and get a new keyboard, the <a href="https://www.keychron.com/pages/keychron-k8-wireless-mechanical-keyboard" class="cyan hover">Keychron K8</a>.

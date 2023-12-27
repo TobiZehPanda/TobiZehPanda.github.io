@@ -42,7 +42,6 @@ pagination:
       <p>
         <span class="orange">Bitcoin</span>: <b>3J1i5fauKy53iEk33ATVbaAbp5wZcJLQ6F</b>
       </p>
-      {% include footer.html %}
     </div>
   </div>
 </div>

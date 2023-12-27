@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sakatoi</title>
-  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap.css">
   <link rel="stylesheet" href="/assets/css/open-color.css">
   <link rel="stylesheet" href="/assets/css/syntax.css">
   <link rel="stylesheet" href="/assets/css/styles.min.css">
@@ -57,36 +57,59 @@
       <p>
         <span class="orange">Bitcoin</span>: <b>3J1i5fauKy53iEk33ATVbaAbp5wZcJLQ6F</b>
       </p>
-      <footer>
-  <div class="container">
-    <div class="row">
-      <div id="menu" class="align-items-center justify-content-center">
-        <ul>
-          <li class="col">
-            <a href="/index.html">Home</a>
-          </li>
-          <li class="col">
-            <a href="/contact.html">Contact</a>
-          </li>
-          <li class="col">
-            <a href="/posts.html">Posts</a>
-          </li>
-          <li class="col">
-            <a href="/links.html">Links</a>
-          </li>
-        </ul> 
-      </div>
-    </div>
-  </div>
-  <div class="d-flex align-items-center justify-content-center">
-    <small>&copy; <time datetime="2023-12-26T18:17:07-06:00">2023</time>Tobi Sakatoi. All rights reserved.</small>
-  </div>
-</footer>
-
     </div>
   </div>
 </div>
 
   </body>
+  <footer>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts.html">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/links.html">Links</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input
+          id="search-input"
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <ul id="results-container"></ul>
+  <script src="/assets/js/search.js" type="text/javascript"></script>
+  <script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById("search-input"),
+      resultsContainer: document.getElementById("results-container"),
+      json: "/search.json",
+    });
+  </script>
+  <div class="d-flex align-items-center justify-content-center">
+    <small
+      >&copy;
+      <time datetime="2023-12-26T23:39:16-06:00"
+        >2023</time
+      >
+      Tobi Sakatoi. All rights reserved.</small
+    >
+  </div>
+</footer>
+
 </html>
 

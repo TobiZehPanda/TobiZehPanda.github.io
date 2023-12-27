@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Creating Public IP Checker
-lead: IP Checker
+category: linux
+tags: IP Checker
 ---
 
 Install `postfix` and append the following below into `/etc/postfix/main.cf`

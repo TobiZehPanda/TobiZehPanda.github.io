@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Setting up Thinkpad X1 Tablet Gen 3
-lead: Thinkpad
+category: computers
+tags: Thinkpad
 ---
 
 On November 15th, 2023, I bought a <span class="green">Thinkpad X1 Tablet Gen 3</span> off of [Back Market](https://backmarket.com). It has a <span class="red">3k</span> display and comes with a keyboard and pen. When I got it, I instantly installed <span class="cyan">Arch Linux</span> on it. The touchscreen works out of box with <span class="orange">i3</span> installed.
