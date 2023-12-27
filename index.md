@@ -24,9 +24,10 @@ pagination:
   </div>
 </div>
 
-<div class="">
+<div class="container">
   <div class="row justify-content-center">
     <div class="col col-sm-10 col-md-8 col-lg-6">
+      <hr>
       <h1>About</h1>
       <p>Born in <span class="teal">Chicago</span> 1999, as a rogue deviant, always causing chaos in its wake.</p>
       <blockquote>
@@ -34,13 +35,6 @@ pagination:
       </blockquote>
       <p>
         Grew up in the village of <a href="https://maps.google.com?q=white%20lake%20wi"><span class="yellow hover">White Lake</span></a>, WI. I am a <span class="indigo">Linux</span> enthusiast and also a proud mother of three kids and a chonky cat. I mostly use <a href="https://archlinux.org" class="hover">Arch Linux</a> on a daily basis, as it is my preferred flavour of Linux.
-      </p>
-      <h2>Donations</h2>
-      <div>
-        <a href="https://paypal.me/tsakatoi"><img src="/assets/jpg/paypal.jpg" alt="PayPal QR Code" width="300" height="300" style="text-align: center; margin: auto;"></a>
-      </div>
-      <p>
-        <span class="orange">Bitcoin</span>: <b>3J1i5fauKy53iEk33ATVbaAbp5wZcJLQ6F</b>
       </p>
     </div>
   </div>
