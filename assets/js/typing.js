@@ -3,7 +3,8 @@ const carouselText = [
   {text: "Professional Eeper", color: "#20c997"}, //teal
   {text: "Proud Mother", color: "#ff922b"}, //orange
   {text: "Guardian of Fwogs", color: "#51cf66"}, //green
-  {text: "Rebellious Deviant", color: "#f06595"} //pink
+  {text: "Rebellious Deviant", color: "#f06595"}, //pink
+  {text: "Night Owl", color: "#5c7cfa"} //indigo
 ]
 
 $( document ).ready(async function() {
