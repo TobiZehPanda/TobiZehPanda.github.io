@@ -14,3 +14,7 @@ I bought the barebones version, as I wanted custom keycaps and switches. I bough
 ![botanical](/assets/jpg/botanical.jpg)
 
 The Keychron K8 is both wireless or wired with hotswappable keyswitches. It has RGB backlight and can connect up to <span class="red hover">three</span> devices. It also has a switch in the back for Mac OS or Windows mode so you can access Siri or Cortana! 
+
+![keyboard](/assets/mp4/keyboard.mp4)
+
+The finished product!
